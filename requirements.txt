@@ -1,0 +1,4 @@
+pydantic
+pickle
+fastapi
+uvicorn
