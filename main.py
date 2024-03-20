@@ -42,6 +42,12 @@ class FarmExpertInput_crop(BaseModel):
     ph: float
     rainfall: float
 
+
+@app.get("/")
+def getting():
+    return {"app":"started"}
+
+
 @app.post("/predict_soil")
 def predict_soil(data: FarmExpertInput_soil):
     encoded_label=label.lab_encode[data.label]
