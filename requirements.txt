@@ -1,4 +1,4 @@
 pydantic
-python==3.9
+python
 fastapi
 uvicorn
