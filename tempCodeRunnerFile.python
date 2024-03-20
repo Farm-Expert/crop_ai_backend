@@ -1,0 +1,9 @@
+import pickle
+
+model = pickle.load('Farm_expert_soil_model.joblib')
+
+input_data = [[90,42, 43,	20.879744,	82.002744,	6.502985,	202.935536, 20]]
+
+predictions = model.predict(input_data)
+
+print("Predicted crop:", predictions)
