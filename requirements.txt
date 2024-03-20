@@ -1,4 +1,4 @@
 pydantic
-pickle
+pickle==4.0.0
 fastapi
 uvicorn
